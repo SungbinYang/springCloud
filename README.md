@@ -7,3 +7,4 @@
   - 서버 부하 분산을 위한 네트워크
   - DNS 실습 및 host 설명
   - DNS 매핑 및 웹 서버 연동
+  - Virtual IP
