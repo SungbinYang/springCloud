@@ -1,1 +1,3 @@
-rootProject.name = "photoapp"
+rootProject.name = "spring-cloud"
+
+include("photoapp", "spring-apigw")
