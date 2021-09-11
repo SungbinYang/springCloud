@@ -23,3 +23,4 @@
 
 ## 03. 웹 API 통합을 위한 기숳
   - API 통합 기술 소개 (zuul, spring cloud gateeway)
+  - spring cloud gateway 활용
