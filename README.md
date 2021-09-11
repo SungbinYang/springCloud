@@ -27,3 +27,4 @@
 
 ## 04. 분산시스템관리를 위한 Discovery pattern
   - zookeeper와 eureka 소개
+  - eurkea 활용
