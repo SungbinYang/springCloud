@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class PhotoApp {
-    public static void main(String ar[]) {
-        SpringApplication.run(PhotoApp.class, ar);
+    public static void main(String[] args) {
+        SpringApplication.run(PhotoApp.class, args);
     }
 }

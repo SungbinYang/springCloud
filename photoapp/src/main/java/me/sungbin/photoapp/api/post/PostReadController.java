@@ -8,7 +8,6 @@ import java.util.UUID;
 
 @RestController
 public class PostReadController {
-
     @GetMapping("/v1.0/contents/1")
     public ResponseEntity<?> retriveInMemoryData() {
         Content content = Content.builder()

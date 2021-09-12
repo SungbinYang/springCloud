@@ -1,9 +1,9 @@
 package me.sungbin.photoapp.storage;
 
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import me.sungbin.photoapp.config.PhotoAppProperties;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FilenameUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -14,10 +14,9 @@ import java.time.format.DateTimeFormatter;
 
 @Slf4j
 @Service
-@RequiredArgsConstructor
 public class FileWriter {
-
-    final PhotoAppProperties photoAppProperties;
+    @Autowired
+    PhotoAppProperties photoAppProperties;
 
     public long writeFile(MultipartFile multipartFile, String filePath) {
         try {
@@ -33,6 +32,7 @@ public class FileWriter {
     public String getFilePath(String fileId, MultipartFile sourceFile) {
         return photoAppProperties.getDefaultPath() +"/" + dateStr() + "/" + fileId + "." + getMimeType(sourceFile.getOriginalFilename());
     }
+
 
     private static String getMimeType(String filePath) {
         return FilenameUtils.getExtension(filePath);

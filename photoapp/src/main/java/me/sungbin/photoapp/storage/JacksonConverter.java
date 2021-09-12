@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 public class JacksonConverter {
+
     private static final ObjectMapper mapper;
 
     static {
@@ -56,7 +57,7 @@ public class JacksonConverter {
         try {
             return mapper.convertValue(obj, type);
         } catch (Exception e) {
-           throw new RuntimeException("convert error");
+            throw new RuntimeException("convert error");
         }
     }
 }
