@@ -7,7 +7,7 @@ plugins {
 	kotlin("plugin.spring") version "1.4.30"
 }
 
-group = "me.sungbin.eureka"
+group = "me.sungbin.springCloud"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
 

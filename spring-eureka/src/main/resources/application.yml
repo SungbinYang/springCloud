@@ -1,16 +1,2 @@
-server:
-  port: 8761
-
-spring.application:
-    name: eurekaApp
-
-eureka:
-  server.enableSelfPreservation: false
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring.sleuth.sampler.probability: 1.0
+server.port: 8761
