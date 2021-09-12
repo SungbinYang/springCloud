@@ -9,7 +9,7 @@ feign:
         loggerLevel: FULL
 logging:
   level:
-    info.thecodinglive.feignclient: debug
+    me.sungbin.feign: debug
 
 
 
