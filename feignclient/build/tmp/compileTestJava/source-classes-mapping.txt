@@ -1,4 +1,0 @@
-me/sungbin/feign/mapService/KakaoLocalSearchTest.java
- me.sungbin.feign.mapService.KakaoLocalSearchTest
-me/sungbin/feign/mapService/MapServiceTest.java
- me.sungbin.feign.mapService.MapServiceTest
