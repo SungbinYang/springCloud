@@ -32,3 +32,4 @@
 ## 05. 쓰기요청 분산처리를 위한 메세지 큐 활용
   - 분산환경에서 쓰기 요청을 분산처리 하려면 어떻게 해야할까?
   - RabbitMQ와 Kafka 소개
+  - spring cloud amqp를 이용한 rabbitmq 연동
