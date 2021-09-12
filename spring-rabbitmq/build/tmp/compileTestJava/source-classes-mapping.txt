@@ -1,0 +1,2 @@
+me/sungbin/rabbitmq/sender/RabbitMQSenderTest.java
+ me.sungbin.rabbitmq.sender.RabbitMQSenderTest
