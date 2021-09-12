@@ -34,3 +34,6 @@
   - RabbitMQ와 Kafka 소개
   - spring cloud amqp를 이용한 rabbitmq 연동
   - spring cloud kafka를 이용한 kafka 연동
+
+## 06. 분산환경에서 API Client 개발
+  - Ribbon과 FeignClient
