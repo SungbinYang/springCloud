@@ -39,3 +39,6 @@
   - Ribbon과 FeignClient
   - FeignClient를 이용한 API 연동
   - FeignClient와 eurkea 연동
+
+## 07. 장애허용시스템 구축
+  - resilience4j를 활용한 circuit breaker 패턴 적용
