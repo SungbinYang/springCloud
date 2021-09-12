@@ -33,3 +33,4 @@
   - 분산환경에서 쓰기 요청을 분산처리 하려면 어떻게 해야할까?
   - RabbitMQ와 Kafka 소개
   - spring cloud amqp를 이용한 rabbitmq 연동
+  - spring cloud kafka를 이용한 kafka 연동
