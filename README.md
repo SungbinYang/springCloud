@@ -37,3 +37,4 @@
 
 ## 06. 분산환경에서 API Client 개발
   - Ribbon과 FeignClient
+  - FeignClient를 이용한 API 연동
