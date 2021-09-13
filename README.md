@@ -46,3 +46,4 @@
 ## 08. 구글 GCP 활용
   - 구글 GCP 소개
   - 구글 GCP 예제 컴포넌트 배포
+  - 구글 GCP에 Spring Cloud 관련 기능 활용
