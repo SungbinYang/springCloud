@@ -42,3 +42,6 @@
 
 ## 07. 장애허용시스템 구축
   - resilience4j를 활용한 circuit breaker 패턴 적용
+
+## 08. 구글 GCP 활용
+  - 구글 GCP 소개
