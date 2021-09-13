@@ -1,32 +1,22 @@
 package me.sungbin.photoapp.storage.gcp;
 
-
-import com.google.api.services.storage.model.StorageObject;
-import com.google.auth.Credentials;
-import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.storage.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-import org.springframework.util.ResourceUtils;
 
-import javax.annotation.PostConstruct;
 import javax.servlet.http.HttpServletResponse;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 @Slf4j
 @Component
 @RequiredArgsConstructor
 public class GCPStorageComponent {
-    private static final String PROJECT_ID = "boot-sample1";
-    private static final String BUCKET_NAME = "photosample-storage";
+
+    private static final String PROJECT_ID = "biniprojects";
+    private static final String BUCKET_NAME = "photoapp-sample1";
 
     private BlobInfo createBlobInfo(String bucketName, String objectName) {
         BlobId blobId = BlobId.of(bucketName, objectName);
