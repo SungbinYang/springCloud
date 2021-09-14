@@ -1,4 +1,0 @@
-me/sungbin/cloud/config/MySqlConfig.java
- me.sungbin.cloud.config.MySqlConfig
-me/sungbin/cloud/app/SpringVaultApp.java
- me.sungbin.cloud.app.SpringVaultApp
