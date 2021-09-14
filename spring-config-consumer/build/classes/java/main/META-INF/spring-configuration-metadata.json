@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "mongodbserver",
+      "type": "me.sungbin.cloud.config.ConfigProp",
+      "sourceType": "me.sungbin.cloud.config.ConfigProp"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mongodbserver.password",
+      "type": "java.lang.String",
+      "sourceType": "me.sungbin.cloud.config.ConfigProp"
+    },
+    {
+      "name": "mongodbserver.url",
+      "type": "java.lang.String",
+      "sourceType": "me.sungbin.cloud.config.ConfigProp"
+    },
+    {
+      "name": "mongodbserver.username",
+      "type": "java.lang.String",
+      "sourceType": "me.sungbin.cloud.config.ConfigProp"
+    }
+  ],
+  "hints": []
+}
