@@ -13,7 +13,7 @@ spring.cloud:
         uri: http://localhost:8080
         predicates:
           - Path=/v1.0/newservice
-          - After=2021-09-11T14:02:22.126+09:00[Asia/Seoul]
+          - After=2021-03-21T23:35:01.126+09:00[Asia/Seoul]
       - id: header-service
         uri: http://localhost:8080
         predicates:
